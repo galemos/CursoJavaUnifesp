@@ -7,7 +7,6 @@ public class Intervalo {
 	public Intervalo(double valor) {
 		this.intervalo = VarificaIntervalo(valor);
 	}
-
 	
 	public String getIntervalo() {
 		return intervalo;
