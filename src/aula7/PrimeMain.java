@@ -13,7 +13,7 @@ public class PrimeMain {
 		int cases =  scanner.nextInt();
 		
 		for(int i = 0; i<cases; i++) {
-			System.out.println(prime.msgPrime(scanner.nextInt()));
+			System.out.println(prime.msgPrime(scanner.nextLong()));
 		}
 		
 		scanner.close();

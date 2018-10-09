@@ -2,8 +2,8 @@ package aula7;
 
 public class Prime {
 	
-	private boolean isPrime(int value) {
-		for(int i = 2; i<value; i++) {
+	private boolean isPrime(long value) {
+		for(int i = 2; i<(value/2); i++) {
 			if(value%i == 0) {
 				return false;
 			}
@@ -11,7 +11,7 @@ public class Prime {
 		return true;
 	}
 	
-	public String msgPrime(int value) {
+	public String msgPrime(long value) {
 		if(isPrime(value)) {
 			return "eh primo";
 		}
